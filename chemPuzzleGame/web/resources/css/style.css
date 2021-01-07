@@ -1,0 +1,283 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2021, 8:22:53 PM
+    Author     : anurd
+*/
+
+#container{
+    width: 1000px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#upContainer{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/1-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/1-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer2{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/2-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer2{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/2-alt.png);
+    margin-left: 3px;
+}
+#upContainer3{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/3-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer3{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/3-alt.png);
+    margin-left: 3px;
+}
+#upContainer4{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/4-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer4{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/4-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer5{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/5-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer5{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/5-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer6{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/6-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer6{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/6-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer7{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/7-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer7{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/7-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer8{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/8-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer8{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/8-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer9{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/9-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer9{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/9-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer10{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/10-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer10{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/10-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer11{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/11-ust.png);
+    margin-left: 532px;
+}
+
+#downContainer11{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/11-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer12{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/12-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer12{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/12-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer13{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/13-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer13{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/13-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer14{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/14-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer14{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/14-alt.png);
+    margin-left: 3px;
+}
+
+#upContainer15{
+    width: 423px;
+    height: 65px;
+    background-image: url(../img/levels/15-ust.png);
+    margin-left: 532px;
+
+}
+
+#downContainer15{
+    height: 423px;
+    width: 65px;
+    background-image: url(../img/levels/15-alt.png);
+    margin-left: 3px;
+}
+
+#pieceContainer{
+    width: 423px;
+    height: 423px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 400px;
+    position: relative;
+    margin-left: 40px;
+}
+#puzzleContainer{
+    width: 423px;
+    height: 423px;
+    border: 1px solid black;
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul button{
+    width: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+#btnReset{
+    display: none;
+}
+
+.piece{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/1-orta.png);
+    background-repeat: no-repeat;
+}

@@ -46,13 +46,13 @@ $(document).ready(function() {
 
     });
     function checkIfPuzzleSolved() {
-        if ($("#puzzleContainer .droppedPiece").length != 49) {
+        if ($("#puzzleContainer .droppedPiece").length !== 49) {
             return false;
         }
         for (var k = 0; k < 49; k++) {
             var item = $("#puzzleContainer .droppedPiece:eq(" + k + ")");
             var order = item.data("order");
-            if (k != order) {
+            if (k !== order) {
                 $("pieceContainer").text("Doğru Yerleştirilmedi! Tekrar düzenleyiniz");
                 return false;
             }

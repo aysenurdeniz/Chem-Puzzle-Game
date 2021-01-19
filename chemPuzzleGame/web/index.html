@@ -1,27 +1,26 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
         <title>Chem Puzzle Game</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <style>
-            .base{
-                text-align: center;
-                padding: 200px;
-                background: linear-gradient(90deg, rgba(97, 92, 92, 0.8), rgba(97, 92, 92, 0.8)), url("resources/img/chem.jpg") center top no-repeat;
-            }
-        </style>
-    </head>
-    <body class="base">
-
-        <h2 ><a href="http://localhost:50267/ChemPG/faces/frontend/login.xhtml">Giriş Yap</a></h2>
-        <h3 ><a href="http://localhost:50267/ChemPG/faces/frontend/oyun/level1.xhtml">Oyun Sayfasına Geç</a></h3>
-
-    </body>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"/>
+        <h:outputStylesheet library="css" name="bootstrap/bootstrap.css"/>
+        <h:outputStylesheet library="css" name="bootstrap/bootstrap.min.css"/>
+    </h:head>
+    <h:body id="base">
+        <div class="container overflow-hidden">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-3 border bg-light"><a class="sekme" href="http://localhost:50267/ChemPuzzleGame/faces/frontend/login.xhtml">Giriş Yap</a></div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border bg-light"><a class="sekme2" href="http://localhost:50267/ChemPuzzleGame/faces/frontend/template/temp.html">Oyun Sayfasına Geç</a></div>
+                </div>
+            </div>
+        </div>
+    </h:body>
 </html>
+

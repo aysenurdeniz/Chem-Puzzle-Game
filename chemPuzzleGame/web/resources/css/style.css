@@ -8,6 +8,22 @@ and open the template in the editor.
     Author     : anurd
 */
 
+
+#base{
+    text-align: center;
+    padding: 250px;
+    background: linear-gradient(90deg, rgba(97, 92, 92, 0.8), rgba(97, 92, 92, 0.8)), url("../resources/img/chem.jpg") center top no-repeat;
+}
+
+.sekme{
+    font-size: 30px;
+}
+
+.sekme2{
+    font-size: 30px;
+    color: #000;
+}
+
 #container{
     width: 1000px;
     border: 2px solid black;
@@ -237,7 +253,9 @@ and open the template in the editor.
     margin-left: 3px;
 }
 
-#pieceContainer{
+#pieceContainer,#pieceContainer2,#pieceContainer3,#pieceContainer4,#pieceContainer5,#pieceContainer6,#pieceContainer7,
+#pieceContainer8,#pieceContainer9,#pieceContainer10,#pieceContainer11,#pieceContainer12,#pieceContainer13,#pieceContainer14,
+#pieceContainer15{
     width: 423px;
     height: 423px;
     border: 1px solid black;
@@ -248,7 +266,9 @@ and open the template in the editor.
     position: relative;
     margin-left: 40px;
 }
-#puzzleContainer{
+#puzzleContainer,#puzzleContainer2,#puzzleContainer3,#puzzleContainer4,#puzzleContainer5,#puzzleContainer6,#puzzleContainer7,
+#puzzleContainer8,#puzzleContainer9,#puzzleContainer10,#puzzleContainer11,#puzzleContainer12,#puzzleContainer13,#puzzleContainer14,
+#puzzleContainer15{
     width: 423px;
     height: 423px;
     border: 1px solid black;
@@ -269,9 +289,10 @@ ul button{
     margin-left: 500px;
 }
 
-#btnReset{
-    display: none;
+#btnReset, #btnReset2, #btnReset3,#btnReset4,#btnReset5,#btnReset6,#btnReset7,#btnReset8,#btnReset9,#btnReset10,#btnReset11,#btnReset12,#btnReset13,#btnReset14,#btnReset15{
+    display: none;  
 }
+
 
 .piece{
     width:60px;
@@ -279,5 +300,124 @@ ul button{
     border: 1px solid black;
     float: left;
     background-image: url(../img/levels/1-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece2{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/2-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece3{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/3-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece4{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/4-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece5{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/5-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece6{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/6-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece7{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/7-orta.png);
+    background-repeat: no-repeat;
+}
+
+.piece8{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/8-orta.png);
+    background-repeat: no-repeat;
+}
+.piece9{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/9-orta.png);
+    background-repeat: no-repeat;
+}
+.piece10{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/10-orta.png);
+    background-repeat: no-repeat;
+}
+.piece11{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/11-orta.png);
+    background-repeat: no-repeat;
+}
+.piece12{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/12-orta.png);
+    background-repeat: no-repeat;
+}
+.piece13{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/13-orta.png);
+    background-repeat: no-repeat;
+}
+.piece14{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/14-orta.png);
+    background-repeat: no-repeat;
+}
+.piece15{
+    width:60px;
+    height: 60px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(../img/levels/15-orta.png);
     background-repeat: no-repeat;
 }
